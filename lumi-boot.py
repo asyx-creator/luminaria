@@ -9,6 +9,7 @@ def anim_print(text, delay=0.05):
         time.sleep(delay)
     print()
 
+os.system("clear")
 anim_print("cpu...")
 time.sleep(1)
 os.system("lscpu -e=CPU,MHZ")
